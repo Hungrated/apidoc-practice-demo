@@ -1,13 +1,9 @@
 /**
- * @apiDefine version @apiVersion 2.1.0
- */
-
-/**
  * @api {post} /api/profile/modify 修改用户资料
  * @apiName profileModify
  * @apiGroup Profile
  * @apiPermission user
- * @apiUse version
+ * @apiVersion 2.1.0
  *
  * @apiDescription 提供用户资料修改接口
  * 用户可修改的资料有：
@@ -80,7 +76,7 @@ router.post('/modify', function (req, res) {
  * @apiName profileAvatar
  * @apiGroup Profile
  * @apiPermission user
- * @apiUse version
+ * @apiVersion 2.1.0
  *
  * @apiDescription 提供用户头像图片上传接口
  *
