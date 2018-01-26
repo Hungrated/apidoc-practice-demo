@@ -1,0 +1,21 @@
+{
+  "name": "apidoc-practice-demo",
+  "version": "0.0.1",
+  "description": "A quick demo using apiDoc to create api documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "apiDoc"
+  ],
+  "author": "Hungrated",
+  "license": "MIT",
+  "dependencies": {
+    "apidoc": "^0.17.6"
+  },
+  "apidoc": {
+    "title": "apidoc-demo",
+    "url" : "https://api.github.com/v1"
+  }
+}
