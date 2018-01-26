@@ -2,9 +2,8 @@
   "name": "apidoc-practice-demo",
   "version": "0.0.1",
   "description": "A quick demo using apiDoc to create api documents",
-  "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "create": "apidoc -i src/ -o out"
   },
   "keywords": [
     "apiDoc"
@@ -16,6 +15,6 @@
   },
   "apidoc": {
     "title": "apidoc-demo",
-    "url" : "https://api.github.com/v1"
+    "url" : "https://hduhungrated.cn"
   }
 }
