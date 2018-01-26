@@ -39,7 +39,7 @@
  *     }
  *
  * @apiError profileModifyFailed 用户档案更新失败
- * @apiErrorExample {json} Success-Response:
+ * @apiErrorExample {json} Error-Response:
  *     HTTP/1.1 200 OK
  *     {
  *       "status": 2001,
@@ -104,7 +104,7 @@ router.post('/modify', function (req, res) {
  *     }
  *
  * @apiError avatarModifyFailed 头像更新失败
- * @apiErrorExample {json} Success-Response:
+ * @apiErrorExample {json} Error-Response:
  *     HTTP/1.1 200 OK
  *     {
  *       "status": 2101,
@@ -205,7 +205,7 @@ router.post('/avatar', function (req, res) {
  *     }
  *
  * @apiError profileModifyFailed 用户档案更新失败
- * @apiErrorExample {json} Success-Response:
+ * @apiErrorExample {json} Error-Response:
  *     HTTP/1.1 200 OK
  *     {
  *       "status": 2001,
