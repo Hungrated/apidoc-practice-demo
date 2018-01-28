@@ -42,6 +42,7 @@
  *       "msg": "档案更新失败"
  *     }
  */
+
 router.post('/modify', function (req, res) {
   // modify a profile
   const {
@@ -107,6 +108,7 @@ router.post('/modify', function (req, res) {
  *       "msg": "头像更新失败"
  *     }
  */
+
 router.post('/avatar', objMulter.any(), function (req, res, next) {
   // upload an avatar
   const schoolId = req.body.school_id // id is schoolId
