@@ -12,6 +12,6 @@ install dependencies
 
 apiDoc HTML files will be created by script `apidoc -i src/ -o out`  
   
-running:  
+### run the demo  
 server: `localhost` 
 server port: `8080`
