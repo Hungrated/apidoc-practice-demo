@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "description": "A quick demo using apiDoc to create api documents",
   "scripts": {
-    "create": "apidoc -i src/ -o out"
+    "test": "apidoc -i src/ -o out & node app.js"
   },
   "keywords": [
     "apiDoc"
@@ -11,11 +11,12 @@
   "author": "Hungrated",
   "license": "MIT",
   "dependencies": {
-    "apidoc": "^0.17.6"
+    "apidoc": "^0.17.6",
+    "express": "^4.16.2"
   },
   "apidoc": {
     "title": "apidoc-demo",
     "version": "2.1.0",
-    "url" : "https://hduhungrated.cn"
+    "url": "https://118.89.109.39:3000"
   }
 }

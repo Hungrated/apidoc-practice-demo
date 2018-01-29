@@ -9,7 +9,7 @@
  * 用户可修改的资料有：
  * 性别、出生日期、手机号码、自述
  *
- * @apiSampleRequest /api/profile/modify
+ * @apiSampleRequest http://118.89.109.39:3000/api/profile/modify
  *
  * @apiParam {Number} school_id  用户学号
  * @apiParam {String} sex 用户性别
@@ -81,7 +81,7 @@ router.post('/modify', function (req, res) {
  *
  * @apiDescription 提供用户头像图片上传接口
  *
- * @apiSampleRequest /api/profile/modify
+ * @apiSampleRequest http://118.89.109.39:3000/api/profile/avatar
  *
  * @apiParam {Object} file 用户头像图片
  * @apiParam {Number} school_id 用户学号
