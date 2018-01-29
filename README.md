@@ -10,4 +10,8 @@ install dependencies
 
 2. `npm run test`
 
-apiDoc HTML files will be created by script `apidoc -i src/ -o out`
+apiDoc HTML files will be created by script `apidoc -i src/ -o out`  
+  
+running:  
+server: `localhost` 
+server port: `8080`
