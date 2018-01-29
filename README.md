@@ -8,7 +8,8 @@ A quick demo using apiDoc to create api documents.
 1. `npm install`
 install dependencies
 
-2. `apidoc -i src/ -o out`
-create apiDoc HTML files
+2. `npm run create`
+
+apiDoc HTML files will be created by script `apidoc -i src/ -o out`
 
 3. review in `out/index.html`
